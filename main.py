@@ -3,8 +3,8 @@ import china, austria
 from austria import cook as austria_cook
 from china import cook as china_cook
 from latam.argentina import cook as argentina_cook
-from latam.brazil import cook as brazil_cook()
-from latam.mexico.yucantan import cook as yucantan_cook
+from latam.brazil import cook as brazil_cook
+from latam.mexico.yucatnan import cook as yucatan_cook
 
 def cook():
     print("we are making paella")
@@ -18,4 +18,4 @@ austria.greet()
 cook()
 argentina_cook()
 brazil_cook()
-yucantan_cook()
+yucatan_cook()
